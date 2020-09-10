@@ -1,0 +1,196 @@
+.blacktext {
+  width: auto;
+  min-width: 200px;
+  max-width: 750px;
+  text-align: center;
+  color: white;
+  font-family: Raleway, sans-serif;
+}
+
+.bannerimage {
+  background: #7C8D9F;
+  min-height: 500px;
+  max-height: 1000px;
+}
+
+.round1 {
+  border-radius: 25px;
+  background: #576575;
+  opacity: 0.6;
+  padding: 20px;
+  min-width: 200px;
+  max-width: 750px;
+  min-height: 150px;
+  margin: auto;
+}
+
+.padding {
+  border-radius: 50px;
+  padding: 20px;
+  min-width: 200px;
+  max-width: 750px;
+  min-height: 150px;
+  margin: auto;
+}
+
+
+.pblack {
+  width: auto;
+  min-width: 200px;
+  max-width: 750px;
+  text-align: center;
+  color: black;
+  font-family: Raleway, sans-serif;
+}
+
+.h1black{
+  display: block;
+  font-size: 2em;
+  color: black;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+}
+
+.h2black {
+  display: block;
+  text-align: center;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.h3black {
+  width: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 200px;
+  max-width: 750px;
+  text-align: center;
+  color: black;
+  font-family: Raleway, sans-serif
+}
+
+.ablack {
+  display: block;
+  color: black;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+}
+
+.pblack {
+  width: auto;
+  min-width: 200px;
+  max-width: 750px;
+  text-align: center;
+  color: black;
+  font-family: Raleway, sans-serif;
+}
+
+.h1white {
+  display: block;
+  font-size: 2em;
+  color: White;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+}
+
+.h2white {
+  display: block;
+  text-align: center;
+  color: White;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.h3white {
+  width: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 200px;
+  max-width: 750px;
+  text-align: center;
+  color: White;
+  font-family: Raleway, sans-serif
+}
+
+.awhite {
+  display: block;
+  color: White;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+}
+
+.pwhite {
+  display: block;
+  color: White;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+}
+
+body {
+    background-image: url("background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi.huffpost.com%2Fgen%2F1443854%2Fimages%2Fo-CODING-facebook.jpg&f=1&nofb=1");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.faicons {
+  padding: 20px;
+  font-size:60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+  background-color: #C0C0C0;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
