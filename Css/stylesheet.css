@@ -36,9 +36,20 @@ ul {
   margin-right: auto
 }
 
-.imagesize750px{
-    max-width: 750px;
-    max-height: 750px;
+.imagesize500px{
+    max-width: 500px;
+    max-height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactimage{
+    max-width: 400px;
+    max-height: 400px
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logoimg {
@@ -92,6 +103,7 @@ ul {
 }
 
 
+}
 .container1200px{
   max-width: 1200px
 }
@@ -177,6 +189,39 @@ ul {
 .spacing10px {
   height: 10px;
 }
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  width: 75%;
+  align-items: center;
+  padding-left: 180px;
+}
+
 
 a {
   color: #fff;
