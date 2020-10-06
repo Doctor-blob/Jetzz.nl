@@ -36,9 +36,9 @@ ul {
   margin-right: auto
 }
 
-.imagesize750px{
-    max-width: 750px;
-    max-height: 750px;
+.imagesize600px{
+    max-width: 700px;
+    max-height: 600px;
     display: block;
     margin-left: auto;
     margin-right: auto;
