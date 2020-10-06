@@ -102,8 +102,6 @@ ul {
   padding-left: 80px;
 }
 
-
-}
 .container1200px{
   max-width: 1200px
 }
@@ -173,7 +171,6 @@ ul {
   margin: auto;
 }
 
-
 .spacing300px {
   height: 300px;
 }
@@ -189,12 +186,6 @@ ul {
 .spacing10px {
   height: 10px;
 }
-
-
-
-
-
-
 
 
 
@@ -235,11 +226,6 @@ ul {
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: red !important;
 }
-
-
-
-
-
 
 
 
@@ -316,5 +302,4 @@ ul {
 }
 .ccbtn:hover{
 	background:#d8850e;
-
 }
