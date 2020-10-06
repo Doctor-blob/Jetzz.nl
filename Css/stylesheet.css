@@ -36,9 +36,9 @@ ul {
   margin-right: auto
 }
 
-.imagesize500px{
-    max-width: 500px;
-    max-height: 500px;
+.imagesize750px{
+    max-width: 750px;
+    max-height: 750px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -61,10 +61,10 @@ ul {
 }
 
 .collum{
-  border-radius: 30px;
+  border-radius: 25px;
   width: 300px;
   height: 500px;
-  background: #999999;
+  background: #ADB7C2;
   margin: auto;
 }
 
@@ -191,126 +191,130 @@ ul {
 }
 
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.container {
-  border-radius: 5px;
-  width: 75%;
-  align-items: center;
-  padding-left: 180px;
-}
 
 
-a {
-  color: #fff;
-  text-decoration: none;
+
+
+
+
+
+
+
+.navbar {
+    border: 0;
+    z-index: 9999;
+    letter-spacing: 4px;
 }
-.me {
-  width: 400px;
-  margin: 90px auto;
+
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px; /* firefox bug fix */
+  width: auto;
 }
-.me p,
-.me h1 {
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  text-align: center;
+.navbar .nav > li > a {
+  line-height: 50px;
 }
-.me p {
-  font-weight: 200;
+
+.navbar-header h1 {
+    letter-spacing: 1px;
+    color: black !important;
+    font-family: 'Lobster Two', cursive;
 }
-.me span {
-  font-weight: bold;
+
+.navbar li a, .navbar {
+    color: black !important;
+    font-size: 12px;
+    transition: all 0.6s 0s;
 }
-.social {
-  position: absolute;
-  top: 20px;
+
+.navbar-toggle {
+    background-color: transparent !important;
+    border: 0;
 }
-.social ul {
-  padding: 0px;
-  -webkit-transform: translate(-270px, 0);
-  -moz-transform: translate(-270px, 0);
-  -ms-transform: translate(-270px, 0);
-  -o-transform: translate(-270px, 0);
-  transform: translate(-270px, 0);
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: red !important;
 }
-.social ul li {
-  display: block;
-  margin: 5px;
-  background: rgba(0, 0, 0, 0.36);
-  width: 300px;
-  text-align: right;
-  padding: 10px;
-  -webkit-border-radius: 0 30px 30px 0;
-  -moz-border-radius: 0 30px 30px 0;
-  border-radius: 0 30px 30px 0;
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -ms-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s;
+
+
+
+
+
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+.ccheader {
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
 }
-.social ul li:hover {
-  -webkit-transform: translate(110px, 0);
-  -moz-transform: translate(110px, 0);
-  -ms-transform: translate(110px, 0);
-  -o-transform: translate(110px, 0);
-  transform: translate(110px, 0);
-  background: rgba(255, 255, 255, 0.4);
+
+.ccheader h1 {
+	margin: 0;
+	font-weight: 300;
+	font-size: 2.5em;
+	line-height: 1.3;
 }
-.social ul li:hover a {
-  color: #000;
+.ccheader {
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
 }
-.social ul li:hover i {
-  color: #fff;
-  background: red;
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-  transform: rotate(360deg);
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -ms-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s;
+
+.ccheader h1 {
+	margin: 0;
+	font-weight: 300;
+	font-size: 2.5em;
+	line-height: 1.3;
 }
-.social ul li i {
-  margin-left: 10px;
-  color: #000;
-  background: #fff;
-  padding: 10px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  font-size: 20px;
-  background: #ffffff;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
+
+/* Form CSS*/
+.ccform {
+   margin: 0 auto;
+    width: 1000px;
+}
+.ccfield-prepend{
+	margin-bottom:10px;
+	width:100%;
+}
+
+.ccform-addon{
+	color:#f8ae45;
+	float:left;
+	padding:8px;
+	width:8%;
+	background:#FFFFFF;
+	text-align:center;
+}
+
+.ccformfield {
+	color:#000000;
+	background:#FFFFFF;
+	border:none;
+	padding:15.5px;
+	width:91.9%;
+	display:block;
+	font-family: 'Lato',Arial,sans-serif;
+	font-size:14px;
+}
+
+.ccformfield {
+	font-family: 'Lato',Arial,sans-serif;
+}
+.ccbtn{
+	display:block;
+	border:none;
+	background:#f8ae45;
+	color:#FFFFFF;
+	padding:12px 25px;
+	cursor:pointer;
+	text-decoration:none;
+	font-weight:bold;
+}
+.ccbtn:hover{
+	background:#d8850e;
+
 }

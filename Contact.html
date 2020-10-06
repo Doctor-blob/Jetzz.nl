@@ -1,57 +1,66 @@
 <html>
-		<title>Home</title>
-			<link type="text/css" rel="stylesheet" href="Css/stylesheet.css"/>
-			<script src="Javascript/Javascript.js"></script>
-			<link rel="icon" href="Pictures/XProfile3.png">
-			<meta name="viewport" content="width=device-width, initial-scale=1" />
-			<link href='https://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-			<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+		<title>Contact</title>
+		<link type="text/css" rel="stylesheet" href="Css/stylesheet.css"/>
+		<script src="Javascript/Javascript.js"></script>
+		<link rel="icon" href="Pictures/XProfile3.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<head>
-		<nav class="social">
-					<ul>
-							<li><a href="">Website Pages</a></li>
-							<li><a href="index.html">Home</a><i class="fa fa-home"></i></li>
-							<li><a href="Projects.html">Projects</a><i class="fa fa-suitcase"></i></li>
-							<li><a href="Badges.html">Badges</a><i class="fa fa-key"></i></li>
-							<li><a href="Contact.html">Contact</a><i class="fa fa-phone"></i></li>
-							<li><a href="">Social media</a></li>
-							<li><a href="https://github.com/Doctor-blob">Github</a><i class="fa fa-github"></i></li>
-							<li><a href="https://www.twitch.tv/doctorblobs">twitch</a><i class="fa fa-twitch"></i></li>
-							<li><a href="https://www.youtube.com/channel/UCR8PfX5r2XU2WB49iKYrqMg">Youtube</a><i class="fa fa-youtube"></i></li>
-							<li><a href="https://soundcloud.com/doctor_blob">Soundcloud</a><i class="fa fa-soundcloud"></i></li>
-					</ul>
-			</nav>
-		</head>
-		<body>
-<div class="wrapper">
-	<h1 class="bigblacktext">Contact Me</h1>
-	<img class="imagesize500px" src="Pictures/XProfile20.png">
-	<div class="spacing100px">	</div>
-	<div class="bannerimage">
-			<div class="spacing100px">	</div>
-			<div class="container">
-			  <form action="/action_page.php">
-			    <label for="fname">First Name</label>
-			    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-			    <label for="lname">Last Name</label>
-			    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-			    <label for="country">Country</label>
-			    <select id="country" name="country">
-			      <option value="australia">Australia</option>
-			      <option value="canada">Canada</option>
-			      <option value="usa">USA</option>
-			    </select>
-
-			    <label for="subject">Subject</label>
-			    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-			    <input type="submit" value="Submit">
-			  </form>
-			</div>
+		<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container">
+						<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse"
+												data-target="#myNavbar">
+										<span class="glyphicon glyphicon-menu-hamburger"></span>
+								</button>
+				<h1 class="brand brand-name navbar-left"><div class"navbar-left">Jetze</h1>
+						</div>
+						<div class="collapse navbar-collapse navbar-right" id="myNavbar">
+							<ul class="nav navbar-nav">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="Projects.html">Projects</a></li>
+							<li><a href="Badges.html">Badges</a></li>
+							<li><a href="Contact.html">Contact</a></li>
+								</ul>
+						</div>
+				</div>
+		</nav>
+</head>
+	<body>
+		<div class="spacing100px"></div>
+		<h1 class="bigblacktext">Contact Me!</h1>
+		<h3 class="smallblacktext">Contact me if you have any issues or if you just want to talk!</h3>
+		<div class="spacing100px"></div>
+		<div class="wrapper">
+		    <form method="post" action="https://formspree.io/f/maypgewl" class="ccform">
+		    <div class="ccfield-prepend">
+		        <input class="ccformfield" name="Name" type="text" placeholder="Full Name" required>
+		    </div>
+				<div class="spacing10px"></div>
+		    <div class="ccfield-prepend">
+		        <input class="ccformfield" type="text" name="Email adress" placeholder="Email" required>
+		    </div>
+				<div class="spacing10px"></div>
+		    <div class="ccfield-prepend">
+		        <input class="ccformfield" type="text" name="Phone number" placeholder="Phone (Optional)">
+		    </div>
+				<div class="spacing10px"></div>
+		     <div class="ccfield-prepend">
+		        <input class="ccformfield" type="text"name="Subject" placeholder="Subject" required>
+		    </div>
+				<div class="spacing10px"></div>
+		    <div class="ccfield-prepend">
+		        <textarea class="ccformfield" name="Sessage" rows="8" placeholder="Message" required></textarea>
+		    </div>
+				<div class="spacing10px"></div>
+		    <div class="ccfield-prepend">
+		        <input class="ccbtn" type="submit" value="Submit">
+		    </div>
+		    </form>
 		</div>
-	</div>
 	</body>
 </html>
