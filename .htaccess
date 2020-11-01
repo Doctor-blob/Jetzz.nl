@@ -2,7 +2,7 @@ Options +Multiviews
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^www\.jetzz\.nl [OR]
 RewriteCond %{REQUEST_URI} /index\.html$
-RewriteRule (.*?)(index\.html)?$ http://yoursite.com$1 [NE,R=301,L]
+RewriteRule (.*?)(index\.html)?$ http://jetzz.nl$1 [NE,R=301,L]
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
